@@ -62,6 +62,7 @@
 
 .nav-link {
   font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
   font-weight: 500;
   color: #3d211a;
   text-decoration: none;
@@ -69,7 +70,7 @@
 }
 
 .nav-link:hover {
-  color: #a07856;
+  color: rgb(119, 3, 3);
 }
 
 /* Dark Mode Styles */
