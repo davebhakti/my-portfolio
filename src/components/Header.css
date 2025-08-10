@@ -135,4 +135,8 @@
     gap: 1rem; /* smaller gap */
     justify-content: center;
   }
+
+  .nav-link {
+    color: #3d211a;
+  }
 }
