@@ -125,9 +125,14 @@
 }
 
 @media (max-width: 480px) {
-  .nav-menu {
+  .header-container {
+    padding: 1rem;
     flex-direction: column;
-    gap: 0.8rem;
-    align-items: center;
+  }
+  
+  .nav-menu {
+    margin-top: 1rem;
+    gap: 1rem; /* smaller gap */
+    justify-content: center;
   }
 }
