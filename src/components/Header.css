@@ -119,6 +119,15 @@
   
   .nav-menu {
     margin-top: 1rem;
-    gap: 1.5rem;
+    gap: 1rem; /* smaller gap */
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-menu {
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
   }
 }
