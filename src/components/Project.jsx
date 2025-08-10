@@ -59,7 +59,7 @@ const Projects = () => {
           </div>
         ))}
         <p>Building new projects, coming soon (✿◡‿◡)</p>
-        <p>Meanwhile, check out my <a href='https://github.com/davebhakti' target='_blank' className='project-link'>GitHub</a>!</p>
+        <p>Meanwhile, check out my <a href='https://github.com/davebhakti' target='_blank' className='project-link' rel="noopener noreferrer">GitHub</a>!</p>
       </div>
     </section>
   );

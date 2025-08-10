@@ -10,6 +10,7 @@
   z-index: 100;
 }
 
+
 .footer.visible {
   bottom: 0;
 }
@@ -55,4 +56,9 @@
     gap: 1rem;
     text-align: center;
   }
+
+  .footer {
+    position: static;
+  }
+
 }

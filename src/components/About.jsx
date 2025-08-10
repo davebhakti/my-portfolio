@@ -29,7 +29,7 @@ const About = () => {
             <p>
               When I'm not debugging code, I'm debugging my willpower at the gym or running queries on the best food spots in town :P.
               I love creating and appreciating art in all forms, especially stunning websites with great content writing and journalism 
-              (<a href='https://www.theswaddle.com/' target='_blank' className='fav-web'>Shoutout to The Swaddle</a>). 
+              (<a href='https://www.theswaddle.com/' target='_blank' className='fav-web' rel="noopener noreferrer">Shoutout to The Swaddle</a>). 
             </p>
           </div>
         </div>
