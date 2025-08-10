@@ -17,7 +17,7 @@ const Header = () => {
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/about" className="nav-link">About</Link>
           <Link to="/projects" className="nav-link">Projects</Link>
-          <Link to="/contact" className="nav-link">Contact</Link>
+          <Link to="mailto:bddave@uci.edu" className="nav-link">Contact</Link>
           <button
             onClick={()=> setDarkMode(!darkMode)}
             className='dark-mode-toggle'
