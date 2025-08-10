@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './Header.css';
-import { Link } from 'react-router-dom'; // For routing (install with: npm install react-router-dom)
 
 
 const Header = () => {
