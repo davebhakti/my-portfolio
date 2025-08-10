@@ -14,7 +14,7 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1.5rem 2rem;
+  padding: 0.8rem 2rem;
 }
 
 .logo {
@@ -56,6 +56,7 @@
 }
 
 .nav-menu {
+  margin-top: 0.7rem;
   display: flex;
   gap: 2rem;
 }
@@ -64,6 +65,9 @@
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
+  background: none;
+  border: none;
+  padding: 0;
   color: #3d211a;
   text-decoration: none;
   transition: color 0.3s ease;

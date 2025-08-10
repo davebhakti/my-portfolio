@@ -2,11 +2,27 @@ import React, { useEffect, useState } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom'; // For routing (install with: npm install react-router-dom)
 
+
 const Header = () => {
     const [darkMode, setDarkMode] = React.useState(false);
 
     useEffect(()=>{
         document.documentElement.classList.toggle('dark', darkMode);}, [darkMode]);
+
+    const scrollToSection = (id) => {
+      const section = document.getElementById(id);
+      if (section) {
+        const headerOffset = 80; // adjust based on header height
+        const elementPosition = section.getBoundingClientRect().top + window.scrollY;
+        const offsetPosition = elementPosition - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth',
+        });
+      }
+    };
+
 
   return (
         <header className={`header ${darkMode ? 'dark' : ''}`}>      
@@ -14,10 +30,10 @@ const Header = () => {
         <h1 className="logo">bhakti.build</h1>
         
         <nav className="nav-menu">
-          <Link to="/" className="nav-link">Home</Link>
-          <Link to="/about" className="nav-link">About</Link>
-          <Link to="/projects" className="nav-link">Projects</Link>
-          <Link to="mailto:bddave@uci.edu" className="nav-link">Contact</Link>
+          <button onClick={() => scrollToSection('experience')} className="nav-link">Experience</button>
+          <button onClick={() => scrollToSection('projects')} className="nav-link">Projects</button>
+          <button onClick={() => scrollToSection('about')} className="nav-link">About</button>
+          <button onClick={() => scrollToSection('contact')} className="nav-link">Contact</button>
           <button
             onClick={()=> setDarkMode(!darkMode)}
             className='dark-mode-toggle'

@@ -15,11 +15,6 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 /* Your custom styles */
-.header {
-  background: white;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
 
 .hero {
   padding: 4rem 2rem;
