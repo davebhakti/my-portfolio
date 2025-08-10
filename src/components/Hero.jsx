@@ -52,7 +52,7 @@ const Hero = () => {
       <div className="hero-image">
         <img
         src="/my-notion-face-portrait.png"
-        alt='my notion profile photo'
+        alt='my notion profile'
         className='profile-image'>
         </img>
       </div>
