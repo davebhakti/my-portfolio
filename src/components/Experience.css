@@ -6,6 +6,7 @@
 }
 
 .section-title {
+    font-family: 'Poppins', sans-serif;
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
@@ -32,24 +33,28 @@
 }
 
 .experience-header {
+    font-family: 'Poppins', sans-serif;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid #eee;
   padding-bottom: 1rem;
 }
 
 .role {
+    font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
   color: #a07856;
   margin-bottom: 0.5rem;
 }
 
 .company-period {
+    font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: space-between;
   color: #4b4a4a;
 }
 
 .responsibilities {
+    font-family: 'Poppins', sans-serif;
   list-style: none;
   padding-left: 0;
 }
