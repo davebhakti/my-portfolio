@@ -19,12 +19,12 @@ const About = () => {
           <h2 className="section-title">About Me</h2>
           <div className="about-text">
             <p>
-              I am pursuing my B.S. in Computer Science at University of California, Irvine with a specialization in Intelligent Systems.
-              Software engineering sounded really cool to pursue in middle school and I picked up coding later in high school. Over the years, 
+              I am pursuing my B.S. in Computer Science at the University of California, Irvine with a specialization in Intelligent Systems.
+              Software engineering sounded really cool to pursue in middle school, and I picked up coding later in high school. Over the years, 
               I have become proficient in Python, C++, and JavaScript, using them to build projects ranging from intelligent algorithms 
               to interactive web applications. I am passionate about combining creativity and technical skill, whether that is developing AI-powered tools, 
               optimizing backend systems, or crafting seamless user experiences. Always looking forward to making meaningful connections and working on 
-              innovative projects, contact me to discuss such fun opportunties!
+              innovative projects, contact me to discuss such fun opportunities!
             </p>
             <p>
               When I'm not debugging code, I'm debugging my willpower at the gym or running queries on the best food spots in town :P.
